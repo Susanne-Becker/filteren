@@ -1,0 +1,92 @@
+html{
+    background-color: pink;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 20px 380px 50px 20px;
+    padding: 16px;
+    border-radius: 0.2em;
+    background-color: lightcoral;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+main section img {
+    border: none;
+    border-radius: 0.2em;
+    width: 160px;
+    height: 160px;
+    margin: 18px;
+}
+
+label {
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0.5em 1em;
+    margin-right: 16px;
+    border-radius: 0.2em;
+}
+
+.alles{
+    margin-left: 18px;
+    margin-bottom: 15px;
+}
+
+#alles {
+    background-color: white;
+    margin-left: 18px;
+}
+
+#alles:active, #rood:active, #blauw:active, #geel:active, #groen:active, #paars:active {
+    background-color: grey;
+}
+
+.alles:checked + #alles, .rood:checked + #rood, .blauw:checked + #blauw, .geel:checked + #geel, .groen:checked + #groen, .paars:checked + #paars  {
+    background-color: pink;
+}
+
+#rood {
+    background-color: red;
+}
+
+#blauw {
+    background-color: blue;
+}
+
+#geel {
+    background-color: yellow;
+}
+
+#groen {
+    background-color: green;
+}
+
+#paars {
+    background-color: purple;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    visibility: hidden;
+}
